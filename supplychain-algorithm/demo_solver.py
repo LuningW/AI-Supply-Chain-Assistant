@@ -39,9 +39,8 @@ model += x["x_w1_c4"] == d["d4"]
 
 model += lpSum([y["y1"], y["y2"], y["y3"], y["y4"]]) == 1  # Only one market can be reduced
 
-# Solve the problem
+# Solve the problem (model.solve(PULP_CBC_CMD(msg=True))
 model.solve()
-
 # Print results
 print("Optimal Solution:")
 for var in x:
