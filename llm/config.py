@@ -1,2 +1,0 @@
-# test_openai_api.py
-OPENAI_API_KEY = "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"
