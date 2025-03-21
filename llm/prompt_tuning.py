@@ -1,6 +1,7 @@
 import openai
+from config import MY_API_KEY
 # OpenAI API Key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = MY_API_KEY
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 # Supply chain optimization calculation results(可以进一步修改：和solver联动，进行自动化读取)
 optimal_transport = {
