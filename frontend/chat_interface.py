@@ -54,5 +54,3 @@ with gr.Blocks() as demo:
 
 # 运行 Gradio 界面
 demo.launch()
-
-
